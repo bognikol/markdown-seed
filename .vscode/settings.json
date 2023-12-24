@@ -1,0 +1,113 @@
+{
+    "editor.tokenColorCustomizations": {
+        "[Visual Studio Dark]": {
+            "textMateRules": [
+                {
+                    "scope": "punctuation.definition.italic.markdown, fenced_code.block.language.markdown",
+                    "settings": {
+                        "foreground": "#707070"
+                    }
+                },
+                {
+                    "scope": "markup.fenced_code.block.markdown",
+                    "settings": {
+                        "foreground": "#CE9178"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.bold.markdown",
+                    "settings": {
+                        "foreground": "#00B2FF",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.heading.markdown",
+                    "settings": {
+                        "foreground": "#707070",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.list.begin.markdown",
+                    "settings": {
+                        "foreground": "#00B2FF",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "markup.bold.markdown",
+                    "settings": {
+                        "foreground": "#00B2FF",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "markup.italic.markdown",
+                    "settings": {
+                        "foreground": "#FFF",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "heading.1.markdown entity.name.section.markdown",
+                    "settings": {
+                        "fontStyle": "bold underline"
+                    }
+                },
+                {
+                    "scope": "heading.2.markdown entity.name.section.markdown",
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "heading.3.markdown entity.name.section.markdown",
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "heading.4.markdown entity.name.section.markdown",
+                    "settings": {
+                        "foreground": "#00B2FFCC",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "heading.5.markdown entity.name.section.markdown",
+                    "settings": {
+                        "foreground": "#00B2FFCC",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "heading.6.markdown entity.name.section.markdown",
+                    "settings": {
+                        "foreground": "#00B2FFCC",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "entity.name.section.markdown",
+                    "settings": {
+                        "foreground": "#00B2FF"
+                    }
+                },
+                {
+                    "scope": "meta.paragraph.markdown",
+                    "settings": {
+                        "foreground": "#D4D4D4"
+                    }
+                }
+              ]
+        }
+    },
+    "[markdown]": {
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.rulers": [80]
+    }
+}
